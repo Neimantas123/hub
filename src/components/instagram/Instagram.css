@@ -1,0 +1,139 @@
+.link-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.follow-instagram {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  margin: auto;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #afb1b2;
+}
+
+.post-container-wrapper > .instagram-posts-container:first-child {
+  margin-left: -30px;
+}
+
+.post-container-wrapper > .instagram-posts-container:nth-child(2) {
+  margin-left: -80px;
+}
+
+.single-instagram-post-block {
+  padding: 15px;
+}
+
+.single-post-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.single-post-top p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.single-post-top .name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.single-post-top .follow {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.instagram-post-dec {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  color: #000000;
+}
+
+.instagram-post {
+  min-width: 250px;
+  height: 250px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 550px) {
+  .mobile {
+    display: none;
+  }
+  a.follow-instagram {
+    font-size: 24px;
+  }
+  .post-container-wrapper {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+  .instagram-posts-container {
+    overflow-x: hidden !important;
+  }
+  .post-container-wrapper > .instagram-posts-container:first-child {
+    margin-left: 0px;
+  }
+  .post-container-wrapper > .instagram-posts-container:nth-child(2) {
+    margin-left: 0px;
+  }
+  .instagram-post {
+    min-width: calc(33% - 15px);
+    height: auto;
+    box-shadow: none;
+  }
+  h2.family.instagram {
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 70px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  .single-instragram-post-wrapper {
+    background: #c6c6c7;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .single-instagram-post-block {
+    width: 50%;
+    background: #fff;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .desktop {
+    display: none;
+  }
+}

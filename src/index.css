@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+img.chat-bot-logo {
+  position: fixed;
+  right: -3%;
+  z-index: 101;
+}
+
+a,
+button {
+  cursor: pointer !important;
+}
+
+img.desktop,
+img.family-desktop-image {
+  border-radius: 10px;
+}
+
+.bot-link-desk {
+  width: 150px;
+  position: fixed;
+  right: 0px;
+  top: 15px;
+  z-index: 5;
+}
+
+@media screen and (min-width: 550px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .desktop {
+    display: none;
+  }
 }

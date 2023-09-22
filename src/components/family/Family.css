@@ -1,0 +1,45 @@
+h2.family {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #b0b1b3;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.family-block {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 725px;
+}
+
+@media screen and (min-width: 550px) {
+  .mobile {
+    display: none;
+  }
+  .family-block {
+    width: 80%;
+    margin: auto;
+  }
+  .family-desktop-image {
+    width: calc(100% - 30px);
+  }
+  h2.family {
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 10%;
+    font-weight: 600;
+    font-size: 64px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .desktop {
+    display: none;
+  }
+}

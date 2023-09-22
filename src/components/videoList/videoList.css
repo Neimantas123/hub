@@ -1,0 +1,28 @@
+.video-list-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
+}
+
+.video-list-container {
+  display: flex;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.video-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+button.scroll-button.scroll-left {
+  margin-left: 5%;
+}
+
+button.scroll-button.scroll-right {
+  margin-right: 5%;
+}
+
+.video-div video {
+  border-radius: 10px;
+}
